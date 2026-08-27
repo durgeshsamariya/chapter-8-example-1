@@ -15,7 +15,7 @@ on:
   #
   # Allows deployment to be invoked manually through the GitHub Actions user interface.
   #
-  # workflow_dispatch: 
+  workflow_dispatch: 
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,4 +32,3 @@ jobs:
       # Runs our our "Hello world" shell script.
       - name: Runs the "Hello world" shell script
         run: ./index.sh
-      
